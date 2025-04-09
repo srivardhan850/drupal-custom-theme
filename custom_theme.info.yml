@@ -1,0 +1,12 @@
+name: Custom Theme
+type: theme
+description: 'A custom Drupal 10 theme created from scratch'
+core_version_requirement: ^10
+base theme: false
+libraries:
+  - custom_theme/global-styling
+regions:
+  header: Header
+  content: Content
+  sidebar: Sidebar
+  footer: Footer

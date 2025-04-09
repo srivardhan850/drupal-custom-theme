@@ -1,0 +1,20 @@
+<div class="page">
+  <header class="header" role="banner">
+    {{ page.header }}
+  </header>
+
+  <main class="main" role="main">
+    <div class="content">
+      {{ page.content }}
+    </div>
+    {% if page.sidebar %}
+      <aside class="sidebar" role="complementary">
+        {{ page.sidebar }}
+      </aside>
+    {% endif %}
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    {{ page.footer }}
+  </footer>
+</div>

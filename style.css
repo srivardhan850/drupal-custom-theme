@@ -1,0 +1,39 @@
+/* Basic reset and typography */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Layout structure */
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background: #f8f8f8;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+}
+
+.content {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.footer {
+  background: #f8f8f8;
+  padding: 20px;
+  margin-top: 20px;
+}
